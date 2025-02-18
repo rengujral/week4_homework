@@ -1,13 +1,22 @@
+# use the open function and the read method in order to open and read the file
 slurping_pelican = open("pelican.txt").read()
-#I've used the open function and the read method in order to open and read the file as requested
+
+# Print type of contents
 print(type(slurping_pelican))
-#I've printed type of contents that will be return
+
+print("\nContent of pelican.txt:")
 print(slurping_pelican)
-# Q4: what type of data type is this
-#The data type is a string
+
+# use readlines method to put the content of the file in a list
 read_into_list = open("pelican.txt").readlines()
-print(len(read_into_list))
-#I've used the readiness method to put the content of the file in a list
+print("\nNumber of items within pelican.txt:", len(read_into_list))
+
+# loop iterates through the content of the file and slice it to remove the empty new lines.
+print("\nContent of pelican.txt:")
 for content in read_into_list:
     print(content[:-1])
-#I've iterated through the content of the file and have sliced it to remove the empty new lines.
+
+# # alt method
+# print("\nContent of pelican.txt:")
+# for line in slurping_pelican:
+#     print(line.strip())
