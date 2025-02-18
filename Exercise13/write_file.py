@@ -1,3 +1,4 @@
+
 with open ("pelican.txt", 'a') as file_handle:
     file_handle.write("A wonderful bird is the pelican\n")
     file_handle.write("His bill holds more than his belican\n")
