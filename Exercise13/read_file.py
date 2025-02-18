@@ -14,7 +14,7 @@ print("\nNumber of items within pelican.txt:", len(read_into_list))
 # loop iterates through the content of the file and slice it to remove the empty new lines.
 print("\nContent of pelican.txt:")
 for content in read_into_list:
-    print(content[:-1])
+    print(content[:-1]) 
 
 # # alt method
 # print("\nContent of pelican.txt:")
