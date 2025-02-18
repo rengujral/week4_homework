@@ -7,5 +7,10 @@ import random
 # 6 values are generated as k is 6
 lotto_generator = random.sample(range(1, 51), 6)
 
+###TO DO
+### an example using random.randint
+###Create an empty set at the start of the code
+print(type)
+
 # the sorted function allows for better readability and sorts them in ascending order
 print("The lottery numbers are:", sorted(lotto_generator))

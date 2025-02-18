@@ -1,6 +1,8 @@
 # create a tuple (telltale sign = ',')
 names_tuple = "Rod", "Jane", "Freddy"
 
+######comment out different except blocks to see how each one executes
+
 # the try statement lets you test a block of code for errors
 try:
     print("############ TRY ################")
